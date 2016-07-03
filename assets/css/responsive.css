@@ -1,0 +1,141 @@
+/* CSS Document */
+
+@media(min-width: 992px){
+		/*.tab{width: 50% ;}*/
+}
+.container	{}
+@media (min-width:768px) and (max-width:992px){
+	.container	{}
+}
+
+@media (min-width:320px) and (max-width:768px)
+{	
+	.navbar-custom			{margin-top:0px;
+							margin-bottom:0px;}
+	.navbar-custom	li.active a,
+	.navbar-custom	li a	
+							{color: #fff !important;
+    						background-color: #2e2e2e;}
+	.menu-mobile,
+	.slider-mobile			{display: block;}
+	.slider-mobile			{padding-top: 121px;}
+		.topbar,
+		.slider 			{display: none;}
+	header					{position: fixed;
+							z-index: 999;
+							width: 100%;
+							border-bottom: 1px solid #dadada;}
+	.inverse-custom			{background-image: none;
+						    background-color: #fff;
+						    border-bottom: 1px solid #d2d2d2;
+						    margin-top: 40px;
+						    margin-bottom: 0px;}									
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle
+							{background-color:#5a5a5a;
+						   	border-color:inherit;
+						    margin-top: 22px;
+    						margin-right: 21px;}							
+	.navbar-inverse .navbar-toggle .icon-bar
+							{background-color:#fff;}
+/** FEATURES ***/
+.box-features				{margin-top: 51px;}
+.text-features1 h3.title-features1
+							{margin: 0px 0px 20px 0px;}
+.features1					{margin:0px 0px 20px 0px;
+							padding:20px 0px 20px 0px;}
+.img-features1 img,
+.img-features2 img,
+.img-features4 img 			{width: 90%;}
+.features4 .img-features4,
+.features2 					{margin-top:40px;}
+.box-us .in-box-us, 
+.box-package 
+.in-box-package, 
+.box-customer .in-box-customer,
+.text-features3,
+.text-features1
+							{padding:0;
+							margin: 0;
+							text-align: center;}
+.features2 .text-features2	{padding: 20px 0px 0px 0px;
+    						text-align: center;}
+.text-features4 h3.title-features4
+							{margin-top:40px;}    													
+#features	p, 
+#service p, 
+#about p, 
+#package p
+							{margin-bottom: 20px;}
+.features2, .features3, .features4
+							{margin: 20px 0px 0px 0px;
+							padding: 0;
+							text-align: center;}
+.text-features3 h3.title-features3
+							{margin-top:27px;}
+.item-box-us				{margin:0;}
+.item-box-us ul 			{padding:0;}
+.box-package .in-box-package h3
+							{margin-top:15px;}
+.box-package .item-box-package ul 
+							{margin:0;
+							padding:0;}
+.box-package .item-box-package ul li
+							{margin:10px auto;}
+.item-box-customer			{margin-top:20px;}							
+.item-box-customer ul 		{padding:0;
+							margin:0px;}
+.in-box-footer,				
+.in-box-footer .ft-logo a	{text-align: center;
+							margin:0 auto;}
+.in-box-footer .img-ft-call,
+.in-box-footer .img-ft-add,
+.in-box-footer .img-ft-mail {margin: 19px 0px;}	
+.in-box-footer .ft-call, .in-box-footer .ft-add, .in-box-footer .ft-mail
+							{margin-top:15px;}	
+.bottom-bar .in-bottom-bar	{text-align: center;}
+.box-footer .bottom-bar	ul 	{float:none;
+						    margin: 0 auto;
+						    text-align: center;
+						    border-top: 1px solid #1f387b;
+    						padding: 10px 0px;
+}
+.box-footer .bottom-bar	ul li
+							{padding:0px 26px 0px 0px;}						    																																																																				
+
+	}
+
+/***** INDEX BOX NAV ********/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),screen and (-webkit-device-pixel-ratio: 1.5)  {
+.navbar-header .navbar-logo{
+	 						background: url('../images/logo-mobile@2x.png') no-repeat 21px 18px;
+	 						background-size:58px 40px;
+							width: 116px;
+							display: block;
+							height:80px;}
+.in-footer .logo-footer
+							{background: url('../images/logo-footer@2x.png') no-repeat 11px 8px;
+    					background-size: 100px 96px;
+    					width: 140px;
+    					display: block;
+    					height: 108px;}
+.in-footer		{background:url('../images/footer-img@2x.png') no-repeat 129px 22px  rgba(0,176,62,1);
+							background-size: 180px 24px;}
+.in-footer	 ul li a.facebook-ft
+							{background:url('../images/icon-social@2x.png') no-repeat -9px 0px;
+							background-size: 205px 65px;}
+.in-footer	 ul li a.googleplus-ft
+							{background:url('../images/icon-social@2x.png') no-repeat -55px 0px;
+							background-size: 205px 65px;}
+.in-footer	 ul li a.youtube-ft
+							{background:url('../images/icon-social@2x.png') no-repeat -100px 0px;
+							background-size: 205px 65px;}
+.in-footer	 ul li a.instagram-ft
+							{background:url('../images/icon-social@2x.png') no-repeat -146px 0px;
+							background-size: 205px 65px;}
+#home .block-search .ic-languages-top a
+							{background: url('../images/eng-flag@2x.png') no-repeat 0px 0px;
+							background-size:22px 22px;}
+}
