@@ -10,6 +10,9 @@
 
 @media (min-width:320px) and (max-width:768px)
 {	
+	.box-top .box-lang-top,
+	.box-top .box-hotline-top
+							{padding:0;}
 	.navbar-custom			{margin-top:0px;
 							margin-bottom:0px;}
 	.navbar-custom	li.active a,
@@ -18,7 +21,7 @@
     						background-color: #2e2e2e;}
 	.menu-mobile,
 	.slider-mobile			{display: block;}
-	.slider-mobile			{padding-top: 121px;}
+	.slider-mobile			{padding-top: 109px;}
 		.topbar,
 		.slider 			{display: none;}
 	header					{position: fixed;
@@ -34,7 +37,7 @@
 .navbar-inverse .navbar-toggle
 							{background-color:#5a5a5a;
 						   	border-color:inherit;
-						    margin-top: 22px;
+						    margin-top: 16px;
     						margin-right: 21px;}							
 	.navbar-inverse .navbar-toggle .icon-bar
 							{background-color:#fff;}
@@ -66,7 +69,9 @@
 #service p, 
 #about p, 
 #package p
-							{margin-bottom: 20px;}
+							{margin-bottom: 20px;
+							padding:0px 5px;}
+.in-package .img-package	{padding: 40px 0px 6px 0px;}							
 .features2, .features3, .features4
 							{margin: 20px 0px 0px 0px;
 							padding: 0;
@@ -82,7 +87,8 @@
 							padding:0;}
 .box-package .item-box-package ul li
 							{margin:10px auto;}
-.item-box-customer			{margin-top:20px;}							
+.item-box-customer			{margin-top:20px;
+							padding:0px;}							
 .item-box-customer ul 		{padding:0;
 							margin:0px;}
 .in-box-footer,				
@@ -97,24 +103,72 @@
 .box-footer .bottom-bar	ul 	{float:none;
 						    margin: 0 auto;
 						    text-align: center;
-						    border-top: 1px solid #1f387b;
-    						padding: 10px 0px;
-}
-.box-footer .bottom-bar	ul li
-							{padding:0px 26px 0px 0px;}						    																																																																				
+						    border-top: 1px solid #212633;
+    						padding: 10px 0px;}
 
-	}
+.box-footer .bottom-bar	ul li
+							{padding:0px 26px 0px 0px;}
+
+.box-us .in-box-us h3		{margin:25px auto;}
+
+.content-left .in-content-left
+							{width: 100%;
+						    margin: 10px auto;
+						    padding: 0;
+						    height: auto;}
+
+.content-left .pagi-count ul li a
+							{margin:0px 3px;}	
+
+.banner-right 				{margin: 10px 0px;}	
+
+.content-left .in-content-left .img-content-blog
+							{width: 284px;
+						    height: 216px;
+						    margin: 0 auto;}																									    																																																																				
+.text-content-blog .img-link-detail, .detail-left	.img-content-blog
+							{width: 100%;}
+.text-features1 h3.title-features1, 
+.text-features2 h3.title-features2, 
+.text-features3 h3.title-features3, 
+.text-features4 h3.title-features4, 
+.in-box-us .title-us, 
+.in-box-package .title-package	
+							{
+							font-size: 16px;
+    						line-height: 21px;	
+							}
+.box-service .in-service h3.title-service,
+.box-customer .in-box-customer  h3
+                            {
+                            font-size: 18px;	
+                            }													
+}
+.item-box-us ul li .img-item{
+	width: 120px;
+	height: 120px;
+}
+.item-box-us ul li h3{
+	margin-top: 10px;
+}
 
 /***** INDEX BOX NAV ********/
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),screen and (-webkit-device-pixel-ratio: 1.5)  {
-.navbar-header .navbar-logo{
-	 						background: url('../images/logo-mobile@2x.png') no-repeat 21px 18px;
-	 						background-size:58px 40px;
-							width: 116px;
+.in-box-footer .ft-logo a.logo-ft
+							{background: url('../images/logo-footer@2x.png') no-repeat center center;
+	 						background-size:80px 68px;
+							width: 160px;
 							display: block;
-							height:80px;}
+							height:96px;
+							margin-top:0;}
+.navbar-header .navbar-logo{
+	 						background: url('../images/logo-mobile@2x.png') no-repeat 10px 16px;
+						    background-size: 178px 34px;
+						    width: 191px;
+						    display: block;
+						    height: 68px;}
 .in-footer .logo-footer
 							{background: url('../images/logo-footer@2x.png') no-repeat 11px 8px;
     					background-size: 100px 96px;
