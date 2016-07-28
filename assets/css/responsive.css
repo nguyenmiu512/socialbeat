@@ -86,6 +86,10 @@
     .features4 .img-features4,
     .features2 {
         margin-top: 40px;
+        text-align: center;
+    }
+    .features1 .img-features1, .features2 .img-features2, .features3 .img-features3, .features4 .img-features4{
+        text-align: center;
     }
     .box-us .in-box-us,
     .box-package .in-box-package,
