@@ -20,6 +20,9 @@
     .box-top .box-hotline-top {
         padding: 0;
     }
+    .item-box-us ul li{
+        width: 100%;
+    }
     .navbar-custom {
         margin-top: 0px;
         margin-bottom: 0px;

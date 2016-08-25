@@ -400,7 +400,6 @@
 	}
 	.item-box-us ul li {
 	    text-align: center;
-	    width: 20%;
 	}
 	.box-package{
 		background-color:#333538;
@@ -418,15 +417,10 @@
 	.item-box-us ul li .img-item img {
 	    width: 100%;
 	}
-	.item-box-us ul li h3{
-		font-size: 18px;
-		color: #fff;
-		margin: 10px 0px 5px 0px;
-	}
+	.item-box-us ul li h3,
 	.item-box-us ul li p {
 	    color: #fff;
     	margin-bottom: 1px;
-
 	}
 	/***** BOX PACKAGE ********/
 	
