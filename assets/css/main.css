@@ -262,6 +262,12 @@
 	.box-service .percent-service-1 p a{
 		color:#fff;
 	}
+	.box-service .percent-service-1 p a.link-view-more{
+		color: #fff;
+	    padding: 9px 20px;
+	    background-color: #eb3434;
+	    border-radius: 50px;
+	}
 	.box-service .in-service h3.title-service {
 	    font-size: 28px;
 	    font-weight: 100;
