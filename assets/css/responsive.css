@@ -223,13 +223,13 @@
     .text-features4 h3.title-features4,
     .in-box-us .title-us,
     .in-box-package .title-package {
-        font-size: 16px;
+        font-size: 24px;
         line-height: 21px;
         text-align: center;
     }
     .box-service .in-service h3.title-service,
     .box-customer .in-box-customer h3 {
-        font-size: 18px;
+        font-size: 24px;
     }
 }
 .item-box-us ul li .img-item {
