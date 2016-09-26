@@ -395,12 +395,12 @@
 	    color: #fff;
 	}
 	.item-box-us {
-	    margin: 20px 0px 40px 0px;
+	    margin: 0px 0px 40px 0px;
 	    padding: 0px 200px;
 	}
 	.item-box-us ul li {
 	    text-align: center;
-	    width: 20%;
+	    margin-top:20px;
 	}
 	.box-package{
 		background-color:#333538;
