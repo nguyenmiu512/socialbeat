@@ -381,7 +381,7 @@
 	.box-customer .in-box-customer {
 	    padding: 0px 213px;
 	    text-align: center;
-	    margin: 20px 0px 40px 0px;
+	    margin: 20px 0px 10px 0px;
 	}
 	.box-us .in-box-us h3,
 	.in-box-package .title-package {
@@ -400,7 +400,7 @@
 	}
 	.item-box-us ul li {
 	    text-align: center;
-	    margin-top:20px;
+	    margin-top:40px;
 	}
 	.box-package{
 		background-color:#333538;
