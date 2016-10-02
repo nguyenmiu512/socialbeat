@@ -5,7 +5,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
- 
+
 }
 @media (min-width: 320px) and (max-width: 768px) {
     /*NAV BAR*/
@@ -236,8 +236,8 @@
     }
 }
 .item-box-us ul li .img-item {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
 }
 .item-box-us ul li h3 {
     margin-top: 10px;

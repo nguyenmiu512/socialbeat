@@ -1,5 +1,5 @@
 	/* preloader */
-	
+
 	.loading-container {
 	    position: fixed;
 	    background-color: #f9f9f9;
@@ -11,7 +11,7 @@
 	    cursor: wait;
 	}
 	/* CSS Document */
-	
+
 	input[type=number]::-webkit-inner-spin-button,
 	input[type=number]::-webkit-outer-spin-button {
 	    -webkit-appearance: none;
@@ -55,15 +55,15 @@
 	    outline: none;
 	}
 	/***** HEADER TOP ********/
-	
-	body {} header {
+
+	body {}
+	header {
 	    position: fixed;
 	    z-index: 999;
 	    width: 100%;
-	    border-bottom: 1px solid #dadada;
 	}
 	.slider {
-	    padding-top: 106px;
+	    padding-top: 98px;
 	}
 	.menu-mobile,
 	.slider-mobile {
@@ -83,7 +83,8 @@
 	}
 	#home .header-top .top-logo a.logo-link {
 	    display: block;
-	    padding-top: 10px;
+			padding-top: 4px;
+
 	}
 	#home .content-create .home-main-create .para-main-create a,
 	.content-create .home-list-create ul li a {
@@ -92,7 +93,6 @@
 	}
 	#home .header-top {
 	    background-color: #fff;
-	    padding: 0px 0px 10px 0px;
 	}
 	#home .box-top .ic-languages-top-eng {
 	    display: inline-block;
@@ -123,6 +123,10 @@
 	    min-height: 0px;
 	    padding-right:0px;
 	}
+	.navbar{
+		border-radius: inherit;
+		    border: inherit;
+	}
 	#home .header-top .topbar .top-nav ul {
 	    float: right;
 	}
@@ -135,7 +139,7 @@
 		margin-right: 0px;
 	}
 	#home .header-top .topbar .top-nav ul li.active {
-	    border-bottom: 2px solid #f04e4e;
+	    border-bottom: 3px solid #f04e4e;
 	}
 	#home .header-top .topbar .top-nav ul li.active a {
 	    color: #f04e4e;
@@ -151,7 +155,11 @@
 	    background-color: #fff;
 	    color: #d84e56;
 	}
-	#home .header-top .topbar .top-logo {} #home header .top-search {
+	#home .header-top .topbar .top-logo {
+		padding-left: 0px;
+	}
+
+	#home header .top-search {
 	    width: 15%;
 	    display: none;
 	    margin-top: 34px;
@@ -196,10 +204,10 @@
 	.box-sidebar-right ul li .ic-google-plus{
 		background: url('../images/social-google-plus.png') no-repeat 0 0;
 	}
-	.box-sidebar-right ul li .ic-social{		
+	.box-sidebar-right ul li .ic-social{
 		width: 33px;
 		height: 34px;
-		display: block;		
+		display: block;
 		margin: 0 auto;
 	}
 	.box-sidebar-right .in-box-sidebar-right ul li{
@@ -213,29 +221,33 @@
 	.box-service {
 	    text-align: center;
 	    background-size: cover;
-	    padding: 0px 0px 53px 0px;
+	    padding: 0px 0px 72px 0px;
 	}
 	.box-service .in-service{
-		    margin: 50px 0px;
+		        margin: 48px 0px 15px 0px;
 	}
+		.box-service .percent-service{
+			    padding: 0px 100px;
+		}
 	.box-service .logo-socialbeat-product{
-		height: 125px;
+		height: 200px;
 		position: relative;
-	    overflow: hidden;
-	    margin: 10px 1%;
-	    max-height: 360px;
-	    text-align: center;
-	    cursor: pointer;
+	  overflow: hidden;
+	  margin: 10px 1%;
+	  text-align: center;
+	  cursor: pointer;
+		-webkit-box-shadow: 2px 4px 46px -19px rgba(0,0,0,0.44);
+		-moz-box-shadow: 2px 4px 46px -19px rgba(0,0,0,0.44);
+		box-shadow: 2px 4px 46px -19px rgba(0,0,0,0.44);
 	}
 	.box-service .percent-service-1:hover .hover-logo{
 		-webkit-transform: translate3d(0,0,0);
     	transform: translate3d(0,0,0);
     	background-color: #000;
-    	width: 242px;
-    	height: 137px;
+    	width: 100%;
+    	height: 100%;
     	color:#fff;
     	background-color: #eb3434;
-    	border:1px solid #ececec;
 	}
 	.box-service .percent-service-1 .hover-logo{
 		position: absolute;
@@ -254,10 +266,9 @@
 		position: relative;
 	}
 	.box-service .logo-socialbeat-product img{
-		padding-top: 36px;
 	}
 	.box-service .percent-service-1 p{
-		margin-top:20px;
+	    margin-top: 34px;
 	}
 	.box-service .percent-service-1 p a{
 		color:#fff;
@@ -273,7 +284,6 @@
 	    font-weight: 100;
 	    padding: 12px 0px;
 	    color: #5a5a5a;
-	    border-bottom: 1px solid #7b7b7b;
 	    display: table;
 	    margin: 14px auto;
 	    text-transform: uppercase;
@@ -292,7 +302,7 @@
 	.box-service .img-service img {
 	}
 	/***** BOX FEATURES ********/
-	
+
 	#features p{
 	    font-size: 15px;
 	    color:#808080;
@@ -303,7 +313,7 @@
 		text-align: left;
 	}
 	.in-box-package .info-package{
-		color:#fff;
+		color:#bcbcbc;
 	}
 	.box-features {
 	    margin-top: 26px;
@@ -371,7 +381,7 @@
 	    margin-top: 34px;
 	}
 	/***** BOX ABOUT ME ********/
-	
+
 	.box-us {
 	    background-color: #e03d3d;
 	    padding: 0px 0px 10px 0px;
@@ -379,60 +389,63 @@
 	.box-us .in-box-us,
 	.box-package .in-box-package,
 	.box-customer .in-box-customer {
-	    padding: 0px 213px;
+	    padding: 0px 110px;
 	    text-align: center;
 	    margin: 20px 0px 10px 0px;
 	}
 	.box-us .in-box-us h3,
 	.in-box-package .title-package {
-	    border-bottom: 1px solid #ffffff;
 	    display: table;
 	    padding-bottom: 16px;
 	    margin: 16px auto;
 	}
 	.box-us .in-box-us h3,
 	.box-us .in-box-us p {
-	    color: #fff;
+	  	color: #ffd4d4;
+			text-align: justify;
 	}
 	.item-box-us {
 	    margin: 0px 0px 40px 0px;
-	    padding: 0px 200px;
+	    padding: 0px 100px;
 	}
 	.item-box-us ul li {
 	    text-align: center;
-	    margin-top:40px;
+	  	margin: 18px 0px 0px 0px;
+			width: 20%;
 	}
 	.box-package{
 		background-color:#333538;
 		padding: 20px 0px 90px 0px;
 	}
-	.item-box-us ul li .img-item {	   
+	.item-box-us ul li .img-item {
 	    border-radius: 50%;
 	    border: 5px solid  #ea3939;
 	    margin: 0 auto;
-	    width: 200px;
-	    height: 200px;
+	    width: 96px;
+	    height: 96px;
 	    overflow: hidden;
 	}
 	.item-box-us ul li .img-item img {
 	    width: 100%;
 	}
 	.item-box-us ul li h3{
-		font-size: 18px;
+		font-size: 15px;
 		color: #fff;
 		margin: 10px 0px 5px 0px;
 	}
 	.item-box-us ul li p {
-	    color: #fff;
-    	margin-bottom: 1px;
+		color: #ffaeae;
+margin-bottom: 1px;
+font-weight: 100;
+font-size: 15px;
 
 	}
 	/***** BOX PACKAGE ********/
-	
-	.box-package .in-box-package {} 
+
+	.box-package .in-box-package {}
 	.box-package .in-box-package h3 {
 	    font-weight: 100;
-	    color: #ffffff;
+	  color:#bcbcbc;
 	}
 	.box-package .in-box-package h3.title-package span {
 	    font-weight: bold;
@@ -440,8 +453,9 @@
     	display: block;
 	}
 	.box-package .item-box-package {
-		padding: 0px 150px;
-	} 
+		padding: 0px 100px;
+		margin-top: 40px;
+	}
 	.box-package .item-box-package ul li {
 	    text-align: center;
 
@@ -464,7 +478,7 @@
 	    height: 235px;
 	}
 	.in-package .img-package p {
-	    color: #2e2e2e;
+	    color: #888;
 	    margin-top: 21px;
 	    line-height: 24px;
 	}
@@ -490,15 +504,14 @@
 	    background-color: #de3020;
 	}
 	/***** BOX CUSTOMER ********/
-	
+
 	.box-customer {
-	    background-color: #fff; 
+	    background-color: #fff;
 	    padding: 18px 0px 50px 0px;
 	}
 	.box-customer .in-box-customer h3 {
 	    display: table;
 	    margin: 0 auto;
-	    border-bottom: 1px solid #5a5a5a;
 	    padding-bottom: 12px;
 	    font-weight: 100;
 	    text-transform: uppercase;
@@ -516,7 +529,7 @@
 		filter: inherit;
 	}
 	/***** BLOG ********/
-	
+
 	#blog {
 	    padding-top: 106px;
 	}
@@ -647,7 +660,7 @@
 	}
 	.text-content-blog .main-content {}
 	/***** FOOTER ********/
-	
+
 	footer {
 	    background-color: #2d2d2d;
 	}
@@ -700,7 +713,8 @@
 	.in-box-footer .ft-call,
 	.in-box-footer .ft-add,
 	.in-box-footer .ft-mail {
-	    margin-top: 36px;
+		margin-top: 31px;
+		margin-bottom: 20px;
 	}
 	.in-box-footer .ft-call .in-ft-call,
 	.in-box-footer .ft-mail .in-ft-mail,
