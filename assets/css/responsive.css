@@ -257,6 +257,9 @@
 .box-service .percent-service{
   padding: 0px;
 }
+.box-sidebar-right{
+  display: none;
+}
 /***** INDEX BOX NAV ********/
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -273,7 +276,7 @@ screen and (-webkit-device-pixel-ratio: 1.5) {
     .navbar-header .navbar-logo {
         background: url('../images/logo-mobile@2x.png') no-repeat 10px 16px;
         background-size: 178px 34px;
-        width: 191px;
+        width: 356px;
         display: block;
         height: 68px;
     }
