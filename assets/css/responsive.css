@@ -137,6 +137,7 @@
     }
     .box-package .item-box-package{
         padding:0px;
+        margin-top: 4px;
     }
     .item-box-us ul {
         padding: 0;
@@ -149,7 +150,7 @@
         padding: 0;
     }
     .box-package .item-box-package ul li {
-        margin: 10px auto;
+      margin: 25px auto;
     }
     .item-box-customer {
         margin-top: 20px;
@@ -188,7 +189,8 @@
         padding: 0px 26px 0px 0px;
     }
     .box-us .in-box-us h3 {
-        margin: 25px auto;
+        margin: 34px auto;
+        padding-bottom: 0px;
     }
     .content-left .in-content-left {
         width: 100%;
@@ -233,14 +235,27 @@
     .box-service .in-service h3.title-service,
     .box-customer .in-box-customer h3 {
         font-size: 24px;
+        margin-top: 15px;
     }
-}
+    .box-service .in-service{
+      margin: 25px 0px 15px 0px;
+    }
 .item-box-us ul li .img-item {
     width: 110px;
     height: 110px;
 }
 .item-box-us ul li h3 {
     margin-top: 10px;
+}
+.box-service .logo-socialbeat-product img
+{
+  width: 100%;
+}
+.box-service .logo-socialbeat-product{
+  height: auto;
+}
+.box-service .percent-service{
+  padding: 0px;
 }
 /***** INDEX BOX NAV ********/
 
