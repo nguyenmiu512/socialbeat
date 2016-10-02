@@ -37,7 +37,7 @@
         display: block;
     }
     .slider-mobile {
-        padding-top: 109px;
+          padding-top: 94px;
     }
     .topbar,
     .slider {
@@ -284,6 +284,7 @@ screen and (-webkit-device-pixel-ratio: 1.5) {
       background-size: 200px 38px;
       width: 400px;
       display: block;
+        height: 57px;
     }
     .in-footer .logo-footer {
         background: url('../images/logo-footer@2x.png') no-repeat 11px 8px;
