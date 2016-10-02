@@ -260,6 +260,11 @@
 .box-sidebar-right{
   display: none;
 }
+.box-package .in-box-package h3,
+.box-service .in-service h3.title-service,
+.box-customer .in-box-customer h3{
+  font-weight: normal;
+}
 /***** INDEX BOX NAV ********/
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -275,10 +280,10 @@ screen and (-webkit-device-pixel-ratio: 1.5) {
     }
     .navbar-header .navbar-logo {
         background: url('../images/logo-mobile@2x.png') no-repeat 10px 16px;
-        background-size: 178px 34px;
-        width: 356px;
+        background-size: 200px 38px;
+        width: 400px;
         display: block;
-        height: 68px;
+        height: 76px;
     }
     .in-footer .logo-footer {
         background: url('../images/logo-footer@2x.png') no-repeat 11px 8px;
