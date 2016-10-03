@@ -273,6 +273,10 @@
 	.box-service .percent-service-1 p a{
 		color:#fff;
 	}
+	.box-service .percent-service-1 p a span{
+		font-weight: bold;
+		font-size: 18px;
+	}
 	.box-service .percent-service-1 p a.link-view-more{
 		color: #fff;
 	    padding: 9px 20px;
